@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="script.js"> -->
+
+    <!-- <script scr="script.js" ></script> -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <img src="money1.jpg" alt="money-pic" class="money1" >
+    <h1>Currency Converter</h1>
+    <p> <b>CHOOSE</b> The Currency and <strong>ENTER</strong> the ammout, to get the exchange rates. </p>
+      <div class="container-1">
+        <div class="currency">
+
+
+          <div class="scroll">
+
+          <select id="currency-one">
+
+            <option value="USD" selected>United States Dollar $</option>
+            <option value="EUR">Euro</option>
+            <option value="GBP">United Kingdom Pounds</option>
+            <option value="CAD">Canadian Dollars</option>
+            <option value="INR">Indian Rupees</option>
+            <option value="CHF">Swiss Franc</option>
+            <option value="KYD">Cayman Island Dollar</option>
+            <option value="KWD">Kuwaiti Dinar</option>
+            <option value="AED">Arab Emirate Dirham</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="NZD">New Zealand Dollar</option>
+            <option value="DEM">German Mark</option>
+            <option value="JPY">Japanese yen</option>
+            <option value="CNY">Renminbi/Chinese Yuan</option>
+            <option value="BTN">Bhutan Ngultrum</option>
+            <option value="LKR">Sri Lankan Rupee</option>
+            <option value="PKR">Pakistani Rupee</option>
+            <option value="NPR">Nepalese Rupee</option>
+
+
+          </select>
+        </div>
+          <input type="number" id="amount-one" placeholder="0" value="1">
+
+        </div>
+        <div class="swap-rate-container">
+          <button class="btn" id="swap">Swap</button>
+          <div class="rate" id="rate">
+
+          </div>
+          <div class="currency">
+
+
+              <div class="scroll">
+
+            <select id="currency-two">
+
+              <option value="USD">United States Dollar $</option>
+              <option value="EUR">Euro</option>
+              <option value="GBP">United Kingdom Pounds</option>
+              <option value="CAD">Canadian Dollars</option>
+              <option value="INR" selected >Indian Rupees</option>
+              <option value="CHF">Swiss Franc</option>
+              <option value="KYD">Cayman Island Dollar</option>
+              <option value="KWD">Kuwaiti Dinar</option>
+              <option value="AED">Arab Emirate Dirham</option>
+              <option value="AUD" >Australian Dollar</option>
+              <option value="NZD">New Zealand Dollar</option>
+              <option value="DEM">German Mark</option>
+              <option value="JPY">Japanese yen</option>
+              <option value="CNY">Renminbi/Chinese Yuan</option>
+              <option value="BTN">Bhutan Ngultrum</option>
+              <option value="LKR">Sri Lankan Rupee</option>
+              <option value="PKR">Pakistani Rupee</option>
+              <option value="NPR">Nepalese Rupee</option>
+
+
+            </select>
+          </div>
+            <input type="number" id="amount-two" placeholder="0" value="0">
+
+          </div>
+
+        </div>
+        <h3>Created by Keshav @ PTU </h3>
+      </div>
+
+    <script charset="utf-8" src="script.js"></script>
+  </body>
+
+
+</html>
